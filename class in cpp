@@ -1,0 +1,22 @@
+#include<iostream.h>
+#include<conio.h>
+
+class student
+{
+public:
+int rollno;
+char name[20];
+void accept()
+{
+cout<<"enter roll no"<<endl;
+cin>>rollno;
+cout<<"enter name"<<endl;
+cin>>name;
+}
+};
+void main()
+{
+student name;
+name.accept();
+getch();
+}
